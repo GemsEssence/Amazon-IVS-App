@@ -14,6 +14,13 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-ApplicationAmazonIVS-ApplicationAmazonIVSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ApplicationAmazonIVS-ApplicationAmazonIVSTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9A9E40602D278DE300965431 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E405F2D278DE300965431 /* Constants.swift */; };
+		9A9E40622D278E0600965431 /* BroadcastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E40612D278E0600965431 /* BroadcastManager.swift */; };
+		9A9E40642D278E5600965431 /* BroadcastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E40632D278E5600965431 /* BroadcastManager.m */; };
+		9A9E40662D278E7600965431 /* StageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E40652D278E7600965431 /* StageView.swift */; };
+		9A9E40682D278E9F00965431 /* StageViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E40672D278E9F00965431 /* StageViewManager.swift */; };
+		9A9E406A2D278EBA00965431 /* StageViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E40692D278EBA00965431 /* StageViewManager.m */; };
+		9A9E406C2D278F2D00965431 /* BroadcastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E406B2D278F2D00965431 /* BroadcastDelegate.swift */; };
 		DE4C5FE367EAF8356AD597F5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +52,14 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-ApplicationAmazonIVS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ApplicationAmazonIVS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ApplicationAmazonIVS/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ApplicationAmazonIVS-ApplicationAmazonIVSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplicationAmazonIVS-ApplicationAmazonIVSTests.release.xcconfig"; path = "Target Support Files/Pods-ApplicationAmazonIVS-ApplicationAmazonIVSTests/Pods-ApplicationAmazonIVS-ApplicationAmazonIVSTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A9E405E2D278DE300965431 /* ApplicationAmazonIVS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ApplicationAmazonIVS-Bridging-Header.h"; sourceTree = "<group>"; };
+		9A9E405F2D278DE300965431 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9A9E40612D278E0600965431 /* BroadcastManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastManager.swift; sourceTree = "<group>"; };
+		9A9E40632D278E5600965431 /* BroadcastManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BroadcastManager.m; sourceTree = "<group>"; };
+		9A9E40652D278E7600965431 /* StageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageView.swift; sourceTree = "<group>"; };
+		9A9E40672D278E9F00965431 /* StageViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageViewManager.swift; sourceTree = "<group>"; };
+		9A9E40692D278EBA00965431 /* StageViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StageViewManager.m; sourceTree = "<group>"; };
+		9A9E406B2D278F2D00965431 /* BroadcastDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastDelegate.swift; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -95,6 +110,14 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				9A9E405F2D278DE300965431 /* Constants.swift */,
+				9A9E405E2D278DE300965431 /* ApplicationAmazonIVS-Bridging-Header.h */,
+				9A9E40612D278E0600965431 /* BroadcastManager.swift */,
+				9A9E40632D278E5600965431 /* BroadcastManager.m */,
+				9A9E40652D278E7600965431 /* StageView.swift */,
+				9A9E40672D278E9F00965431 /* StageViewManager.swift */,
+				9A9E40692D278EBA00965431 /* StageViewManager.m */,
+				9A9E406B2D278F2D00965431 /* BroadcastDelegate.swift */,
 			);
 			name = ApplicationAmazonIVS;
 			sourceTree = "<group>";
@@ -209,7 +232,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1600;
 					};
 				};
 			};
@@ -397,7 +420,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				9A9E40662D278E7600965431 /* StageView.swift in Sources */,
+				9A9E40682D278E9F00965431 /* StageViewManager.swift in Sources */,
+				9A9E406C2D278F2D00965431 /* BroadcastDelegate.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				9A9E40642D278E5600965431 /* BroadcastManager.m in Sources */,
+				9A9E40602D278DE300965431 /* Constants.swift in Sources */,
+				9A9E40622D278E0600965431 /* BroadcastManager.swift in Sources */,
+				9A9E406A2D278EBA00965431 /* StageViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +500,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36J6T6XLS2;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ApplicationAmazonIVS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
@@ -485,6 +516,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ApplicationAmazonIVS;
+				SWIFT_OBJC_BRIDGING_HEADER = "ApplicationAmazonIVS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -498,6 +530,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36J6T6XLS2;
 				INFOPLIST_FILE = ApplicationAmazonIVS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -512,6 +545,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ApplicationAmazonIVS;
+				SWIFT_OBJC_BRIDGING_HEADER = "ApplicationAmazonIVS-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

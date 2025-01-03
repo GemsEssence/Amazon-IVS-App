@@ -23,6 +23,9 @@ target 'ApplicationAmazonIVS' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  pod 'AmazonIVSBroadcast', '~> 1.8.0'
+  pod 'AmazonIVSPlayer', '~> 1.8.0'
+
   target 'ApplicationAmazonIVSTests' do
     inherit! :complete
     # Pods for testing
